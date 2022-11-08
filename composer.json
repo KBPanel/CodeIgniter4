@@ -1,0 +1,49 @@
+{
+    "name": "kseven/telegrambotci4",
+    "description": "Telegram Bot for CodeIgniter 4",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "telegram",
+        "bot"
+    ],
+    "authors": [
+        {
+            "name": "PHP Telegram Bot Team",
+            "role": "Developer"
+        },
+        {
+            "name": "KSeven",
+            "email": "anjsuporte@gmail.com",
+            "role": "Developer (Libraries for codeIgniter 4)"
+        }
+    ],
+    "homepage": "https://github.com/KS7ven/TelegramBot-ci4",
+    "require": {
+        "php": "^7.4.3 || ^8.0",
+        "longman/telegram-bot": "*",
+        "php-telegram-bot/telegram-bot-manager": "^1.8"
+    },
+    "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "BotTelegram\\": "src"
+        },
+        "files": [
+            "src/Libraries/PHPBot.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests",
+            "Tests\\Support\\": "tests/_support"
+        }
+    }
+}
