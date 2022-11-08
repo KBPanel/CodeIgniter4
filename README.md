@@ -31,18 +31,12 @@ or change the `require` block in the `composer.json` file:
 
 ```json
     "require": {
-        "php-telegram-bot/telegram-bot-manager": "*"
+        "kseven/telegrambotci4": "*"
     }
 ```
 
-Then, edit the following files, replacing all necessary values with those of your project.
-
-- `composer.json` (Describes your project and it's dependencies)
-- `manager.php` (Used as the main entry point for everything)
-
----
-
 Now you can install all dependencies using [composer]:
+
 ```bash
     $ composer install
 ```
